@@ -347,7 +347,7 @@ canvas {
   width: 100%;
   height: auto;
   color: white;
-  background-color: rgba(33, 204, 167, 0.9);
+  background-color: rgba(224, 65, 114, 0.9);
   border-radius: 0 2rem 2rem 2rem;
   font-family: "DM Sans", sans-serif;
   gap: 1rem;
@@ -363,7 +363,7 @@ canvas {
 
 .ficha_boton {
   padding: 10px 20px;
-  background-color:rgba(33, 204, 167, 0.6);
+  background-color:rgba(224, 65, 114, 0.6);
   border-radius: 1rem 1rem 0rem 0rem;
   border: none;
   cursor: pointer;
@@ -374,7 +374,7 @@ canvas {
 .ficha_boton.activo {
 
   padding: 10px 20px;
-  background-color:  rgba(33, 204, 167, 0.9);
+  background-color:  rgba(224, 65, 114, 0.9);
   border-radius: 1rem 1rem 0rem 0rem;
   border: none;
   cursor: pointer;
@@ -409,7 +409,7 @@ canvas {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: white; /** rgba(33, 204, 108, 0.9);**/
+  background-color: #05052D; /** rgba(33, 204, 108, 0.9);**/
   width: 25%;
   height: auto;
   border-radius: 1rem;
@@ -423,14 +423,14 @@ canvas {
   flex-direction: column;
   text-align: left;
   padding: 2rem; 
-  color: #00b9ce;;
+  color: #E04172;;
   opacity: 90% !important;
 }
 .servicio_caja--texto h2 {
   font-weight: bolder;
 }
 .servicio_caja--texto p {
-  color: black !important;
+  color: white !important;
 }
 .servicio_caja--imagen {
   display: flex;
@@ -447,9 +447,12 @@ canvas {
   margin: 0;
   border-radius: 1rem;
 }
-.scroll_completo_servicios {
-  background-color: white;
+.fondo_servicios {
+  background-image: url(../img/fondo_ser1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 /********** FOOTER ***********/
 
 .contacto_footer {
@@ -731,6 +734,9 @@ padding-top: 3rem;
   height: auto;
   gap: 20rem;
   padding-top: 3rem;
+  background-color: #15134F;
+  color: white;
+  padding-bottom: 3rem;
 }
 .line {
   width:100%;
