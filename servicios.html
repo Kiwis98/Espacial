@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Servicios</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <!-- Comienzo navegación -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+          <i class="fas fa-bars"></i>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="servicios.html">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Portafolio.html">Portafolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+      <a href="index.html">
+        <div class="navbar_logo">
+        </div>
+      </a>
+    </nav>
+    <!-- Fin navegación -->
+  </header>
+
+  <!-- Sección hero -->
+  <main>
+    <div class="contenedor_main container-fluid">
+      <div class="columna_izquierda container-fluid">
+        <div class="titulo_texto">
+          <h1>Servicios</h1>
+          <p>Creación de recurso y adaptación de estos, para la educación e-learning mediante el uso de herramientas
+            tecnológicas accesibles para todo tipo de persona.</p>
+        </div>
+        <button class="button_hero btn btn-primary btn-lg">Contáctanos</button>
+      </div>
+
+      <div class="columna_derecha">
+        <canvas></canvas>
+        <div class="contenedor_boton">
+          <button class="button_back" type="button">←</button>
+          <button class="button_mid" type="button">Explora</button>
+          <button class="button_next" type="button">→</button>
+        </div>
+
+      </div>
+    </div>
+    </div>
+    <div id="camera-vectors container-fluid">
+      <span>Free Camera Vectors:</span><br>
+      <span id="position"></span><br>
+      <span id="lookingAt"></span><br>
+      <span id="rotation"></span>
+    </div>
+  </main>
+  <!-- Fin sección hero -->
+
+  <div class="ficha">
+    <div id="contenido_imagen">
+      <img id="imagenActual" src="img/imagen_ficha1.png" alt="">
+    </div>
+    <div class="ficha_contenido">
+      <div class="ficha_botones">
+        <button id="boton1" class="ficha_boton activo" data-image-id="imagen1">Implementación de <br>
+          plataformas e-learning</button>
+        <button id="boton2" class="ficha_boton" data-image-id="imagen2">Administración de <br>
+          plataformas e-learning</button>
+        <button id="boton3" class="ficha_boton" data-image-id="imagen3">Creación de <br> educativo</button>
+      </div>
+      <div id="contenido_texto" class="contenido_texto">
+        <h2>Implementación de plataformas e-learning</h2>
+        <p>En Etiza, ofrecemos soluciones de implementación de plataformas e-learning para empresas y
+          organizaciones
+          de
+          todos los tamaños. Trabajamos en estrecha colaboración con nuestros clientes para comprender sus
+          necesidades,
+          objetivos específicos y metodologías educativas.</p>
+      </div>
+    </div>
+  </div>
+  <!-- Scroll de servicios -->
+
+  <div class="seccion_servicios">
+    <div class="servicios_fila">
+      <div class="servicio_caja">
+        <div class="servicio_caja--texto">
+          <h2>
+            Diseño Instruccional
+          </h2>
+          <p>
+            Nos aseguramos de que el contenido esté organizado de manera clara y de que los
+            cursos tengan una estructura coherente y una progresión lógica.
+          </p>
+        </div>
+        <div class="servicio_caja--imagen">
+          <img src="img/di_icon.png" alt="">
+        </div>
+      </div>
+      <div class="servicio_caja">
+        <div class="servicio_caja--texto">
+          <h2>
+            Recursos interactivos
+          </h2>
+          <p>
+            Los recursos interactivos pueden incluir juegos educativos, cuestionarios,
+            infografías interactivas y mucho más.
+          </p>
+        </div>
+        <div class="servicio_caja--imagen">
+          <img src="img/libros_icon.png" alt="">
+        </div>
+      </div>
+      <div class="servicio_caja">
+        <div class="servicio_caja--texto">
+          <h2>
+            Presentación interactiva
+          </h2>
+          <p>
+            Ofrecemos servicios de creación de presentaciones interactivas de alta
+            calidad para que tus cursos sean atractivos, efectivos y mantengan la atención de tus estudiantes.
+          </p>
+        </div>
+        <div class="servicio_caja--imagen">
+          <img src="img/preinte_icon.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="servicios_fila">
+      <div class="servicio_caja">
+        <div class="servicio_caja--texto">
+          <h2>
+            Videos instruccionales
+          </h2>
+          <p>
+            Nuestro equipo utiliza las últimas herramientas y tecnologías para crear videos instruccionales y
+            animaciones.
+          </p>
+        </div>
+        <div class="servicio_caja--imagen">
+          <img src="img/video_img.png" alt="">
+        </div>
+      </div>
+      <div class="servicio_caja">
+        <div class="servicio_caja--texto">
+          <h2>
+            Infografías
+          </h2>
+          <p>
+            Son perfectas para resumir el contenido en una imagen clara y fácil de entender. Creamos infografías
+            personalizadas y atractivas, se ajustarán al estilo de tu curso y a la marca de tu empresa.
+          </p>
+        </div>
+        <div class="servicio_caja--imagen">
+          <img src="img/info_icon.png" alt="">
+        </div>
+      </div>
+      <div class="servicio_caja">
+        <div class="servicio_caja--texto">
+          <h2>
+            Realidad aumentada y virtual
+          </h2>
+          <p>
+            La realidad aumentada y virtual es una tecnología emocionante que permite a tus estudiantes sumergirse en
+            un mundo virtual o interactuar con elementos digitales en el mundo real.
+          </p>
+        </div>
+        <div class="servicio_caja--imagen">
+          <img src="img/realidad_icon.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- Footer Kari -->
+  <hr class="line">
+  <div class="footer_completo">
+    <div class="columna_izq">
+      <img src="img/logo_pequeño.svg">
+    </div>
+   <div class="texto_footer">
+      <div class="columna_med">
+        <h4>Ver</h4>
+        <h6>Servicios</h6>
+        <h6>Noticias</h6>
+        <h6>Portafolio</h6>
+        <h6>Contacto</h6>
+      </div>
+      <div class="columna_der">
+          <h4>Contacto</h4>
+          <h6><img src="img/Persona.svg"> Marcelo Flores Sanhueza </h6>
+          <h6><img src="img/Mail.svg"> mflores@etiza.cl</h6>
+          <h6><img src="img/Phone.svg">+56954459442</h6>
+        </div>
+   </div>      
+  </div>
+
+
+
+
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span></span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+
+            </h6>
+            <img src="img/logo_pequeño.svg" alt="">
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Ver
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Servicios</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Noticias</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Portafolio</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Noticias</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+            <p><i class="fas fa-home me-3"></i> Marcelo Flores Sanhueza</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              mflores@etiza.cl
+            </p>
+            <p><i class="fas fa-phone me-3"></i>+56954459442</p>
+          </div>
+          <!-- Grid column -->
+          <div class="contenedor_redes col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <img class="imagen_redes" src="img/icon_insta.svg" alt="logo instagram">
+            <img class="imagen_redes" src="img/icon_lin.svg" alt="logo inkedin">
+            <img class="imagen_redes" src="img/icon_vimeo.svg" alt="logo vimeo">
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+  <script type="module" src="js/main.js"></script>
+  <script type="module" src="js/three.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.umd.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/12d0565f30.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
