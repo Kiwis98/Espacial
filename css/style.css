@@ -707,7 +707,7 @@ canvas {
   padding-right: 20rem;
   align-items: center;
   height: 100vh;
-  background-color: #319885;
+  background-image: url(../img/fondo_texto.svg);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -717,7 +717,7 @@ width: 100%;
 padding-top: 3rem;
 }
 .contenedor_texto_metodo h2 {
-  color: white;
+  color: #e04172;
   font-size: 4rem;
   font-family: "DM Sans", sans-serif;
   font-weight: bold;
