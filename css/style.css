@@ -674,3 +674,17 @@ padding-top: 3rem;
   align-items: center;
   gap: 20rem;
 }
+
+.portada_etiza {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: auto;
+  background-image: url(../img/fondo_texto.svg);
+}
+.portada_etiza img {
+display: flex;
+width: 50%;
+padding-top: 10rem;
+}
