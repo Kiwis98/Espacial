@@ -688,3 +688,12 @@ display: flex;
 width: 50%;
 padding-top: 10rem;
 }
+.portada_etiza h1 {
+  display: flex;
+  width: 60%;
+  font-size: 1.2rem;
+  text-align: center;
+  color: white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
